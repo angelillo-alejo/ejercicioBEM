@@ -28,3 +28,13 @@ footer{
     height: 150px;
 }
 
+
+
+
+
+@media all and (min-width: 800px) and (max-width: 1024px) {
+    .columna {
+        width: 33%;
+    }
+}
+
