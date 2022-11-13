@@ -47,7 +47,7 @@ header{
 
 
 
-.divNav-primary{
+.navDiv-primary{
     width: 100%;
     height: 50px;
     text-align: center;
@@ -59,46 +59,54 @@ nav{
 }
 
 
-nav ul li{
+nav ul li {
     list-style: none;
     float:left; 
-    margin-left: 40px;
-    position: relative;
-    
-    
+    margin-left:40px;
+    position: relative;   
 }
 
 nav ul li a{
     text-decoration: none;
     color:#7e7c7cfd;
-    
 }
 
-nav ul li a ::before{
+nav ul li a::before{
     width: 0%;
-    background: green;
-    height: 2px;
+    background: rgb(3, 199, 3);
+    height: 3px;
     top:33px;
     position: absolute;
     display: block;
     content: '';
 }
 
-
-nav ul li a:hover::before{
+nav ul li a:hover:before{
     width: 100%;
-
 }
-
-
-
-
 
 
 main{
     background-color: rgb(226, 225, 225);
     width: 100%;
     height: 800px;
+    display: inline-block;
+    
+}
+
+.mainDiv-primary{
+    width: 100%;
+    height: 50px;
+    text-align: center; 
+}
+
+select{
+    float:left; 
+    position: relative; 
+    margin: 10px;
+    padding: 5px;
+    left: 125px;
+    background: rgb(3, 199, 3);
     
 }
 
@@ -110,7 +118,8 @@ footer{
 
 
 
-
+/* Esta query no me vale para que la imagen "El corte Ingles y el menu queden parejos cuando cambio de pantalla.
+Sí me sirve para que el diseño sea responsive */
 
 @media all and (min-width: 800px) and (max-width: 1024px) {
     .columna {
