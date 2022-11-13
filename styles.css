@@ -110,6 +110,21 @@ select{
     
 }
 
+.mainDiv-Imagen1{
+    background: rgb(1, 247, 247);
+    width: 500px;
+    height: 250px;
+    display: inline-block;
+}
+
+.mainDiv-Imagen2{
+    background: rgb(1, 247, 247);
+    width: 500px;
+    height: 250px;
+    display: inline-block;
+}
+
+
 footer{
     background-color: white;
     width: 100%;
