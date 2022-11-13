@@ -111,17 +111,35 @@ select{
 }
 
 .mainDiv-Imagen1{
-    background: rgb(1, 247, 247);
+    background: rgb(248, 250, 250);
     width: 500px;
-    height: 250px;
+    height: 300px;
     display: inline-block;
+    position: relative;
+    left: 130px;
+    top: 2px;
+    
 }
 
 .mainDiv-Imagen2{
-    background: rgb(1, 247, 247);
+    background: rgb(248, 250, 250);
     width: 500px;
-    height: 250px;
+    height: 300px;
     display: inline-block;
+    position: relative;
+    left: 150px;
+}
+
+.mainDiv-Imagen1__imagenIzquierda {
+    position: absolute;
+    top: 1px;
+    width: 500px;
+}
+
+.mainDiv-Imagen1__imagenDerecha{
+    position: absolute;
+    top: 1px;
+    width: 500px;
 }
 
 
