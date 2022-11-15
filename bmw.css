@@ -1,0 +1,74 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Arial;
+    
+}
+
+body{
+    font-family: Arial;
+    width: 100%; 
+    background-image: url("/imageBMW/cq5dam.resized.img.1680.large.time1663324559796.webp");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    
+    
+}
+
+header{
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    padding: 20px 50px;
+    justify-content: space-between;/*Con esta propiedad consigo separacion entre */
+    
+}    
+header li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: #b2dfdb;
+}
+
+header i{
+    color: white;
+}
+
+header i:hover{
+    color: hsl(175, 41%, 79%)
+
+}
+
+.bloqueMain{ 
+    height: 500px;
+    display: flex;
+    position: relative;
+    top: 350px;
+    left: 25px;
+}
+
+h1, h2{
+    color: white;
+}
+
+button{
+    color: white;
+    background-color: rgb(81, 81, 250);
+    width: 11rem;
+    height: 2rem;
+}
+
+
+
+
+
