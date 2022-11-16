@@ -125,7 +125,9 @@ select{
     width: 500px;
     position: relative;
     float: left;
-    top: 400px;
+    top: 142px;
+    left: 130px;
+    text-align: center;
 }
 
 .mainDiv-Imagen2{/*Imagen izquierda*/
@@ -134,7 +136,7 @@ select{
     display: inline-block;
     position: relative;
     left: 130px;
-    bottom: 132px;
+    bottom: 134px;
 }
 
 .mainDiv-tituloImagen2{
@@ -143,7 +145,9 @@ select{
     width: 500px;
     position: relative;
     float: right;
-    top: 400px;
+    bottom: 2px;
+    right: 264px;
+    text-align: center;
 }
 
 .mainDiv-Imagen1__imagenIzquierda {
