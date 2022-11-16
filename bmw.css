@@ -70,5 +70,23 @@ button{
 
 
 
+.bloqueMain-div2{
+    display: flex;
+    position: relative;
+    top: 300px;
+    right: 100px;
+    
+    
+}
+
+.bloqueMain-div2 li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
 
 
+
+.bloqueMain-div2 a{
+    color: grey;
+}
