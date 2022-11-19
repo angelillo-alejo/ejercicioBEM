@@ -1,0 +1,20 @@
+$color-principal: green;
+
+main{
+    border:1px solid;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+main h1{
+    color: $color-principal;
+    margin-top: 0;
+
+}
+
+main button{
+    background-color: $color-principal;
+    color: white;
+    
+}

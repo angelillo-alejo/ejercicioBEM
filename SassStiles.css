@@ -1,0 +1,15 @@
+main {
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+main h1 {
+  color: green;
+  margin-top: 0;
+}
+
+main button {
+  background-color: green;
+  color: white;
+}/*# sourceMappingURL=SassStiles.css.map */

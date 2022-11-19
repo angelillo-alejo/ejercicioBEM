@@ -20,7 +20,7 @@ header{
     justify-content: flex;
     align-items: center;
     padding: 20px 50px;
-    justify-content: space-between;/*Con esta propiedad consigo separacion entre */
+    justify-content: space-between;
     
 }    
 header li{
@@ -49,12 +49,24 @@ header i:hover{
 
 }
 
+.div-icons{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .bloqueMain{ 
     height: 500px;
     display: flex;
     position: relative;
     top: 350px;
     left: 25px;
+}
+
+bloque-header div-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 h1, h2{
